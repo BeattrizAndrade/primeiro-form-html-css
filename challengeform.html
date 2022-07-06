@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./challengeform.css">
+    <title>Desafio Formulario</title>
+</head>
+
+<body>
+<div id="mother">    
+
+    <div id="primary">
+        <form method="post" action="dados.html/" enctype="multipart/form-data">
+    <legend id="legenda"> Cadastro: </legend> 
+    </div>
+
+    <div>
+        <label for="nome"> Nome: </label>
+        <input name="Nome" type="text" id="nome" placeholder="Digite seu nome" required>
+
+    </div>
+
+    <div>
+        <label for="email"> Email: </label>
+        <input name="Email" type="email" id="email" placeholder="Digite seu email" required>
+
+    </div>
+
+    <div>
+        <label for="idade">Idade: </label>
+        <input type="number" name="idade" id="idade" min="12" required>
+
+    </div>
+
+    <div>
+        <label for="data-nasciemnto">Data de Nascimento: </label>
+        <input type="date" id="data-nascimento" name="data-nascimento" required>
+    </div>
+
+    <div>
+        <label for="redes"> Onde você possui conta: </label>
+        <input type="checkbox" name="opcao" value="op1" class="redes"> Instagram
+        <input type="checkbox" name="opcao" value="op2" class="redes"> Facebook
+        <input type="checkbox" name="opcao" value="op3" class="redes"> Youtube
+    </div>
+
+    <div>
+        <label for="sexo"> Sexo: </label>
+        <input type="radio" name="opcao" value="op" required class="sexo"> Masculino
+        <input type="radio" name="opcao" value="op" required class="sexo"> Feminino
+
+    </div>
+
+    <div>
+        <label for="olhos"> Cor dos olhos: </label>
+        <input type="color" required name="olhos" id="olhos">
+
+    </div>
+
+    <div>
+        <label for="biografia"> Biografia: </label>
+        <textarea required name="biografia" id="biografia"> Digite sua biografia </textarea><br>
+    </div>
+
+    <div>
+        <label for="fotoperfil"> Foto do perfil: </label>
+        <input type=file accept="image/*" required name="fotoperfil" id="fotoperfil">
+    </div>
+
+    <div>
+        <label for="telefone">Telefone: </label>
+        <input type="tel" name="Telefone" id="telefone" required>
+    </div>
+
+    <div>
+        <label for="link">Link do Perfil Do Facebook: </label>
+        <input type="url" name="url" id="url" accept="url/*" id="link">
+    </div>
+
+    <div>
+        <label for="senha"> Senha: </label>
+        <input type="password" minlength="6" maxlength="8" name="senha" id="senha" required>
+    </div>
+
+    <div>
+    <button type="reset" name="reset" id="reset">Limpar</button>
+    <button type="subimt" name="subimt" id="subimt">Enviar Dados</button>
+    </div>
+
+</div>
+</form>
+</body>
+</html>

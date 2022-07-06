@@ -1,0 +1,46 @@
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color:#D8BFD8
+}
+
+div {
+    margin: 10px 10px;
+     }
+
+    
+label { display:block;
+        font-size: 17px; 
+        font-family: 'Nunito', sans-serif; 
+        color: #00008B;}  
+
+input {border-color: #696969;
+       border-width: 2px; }
+
+textarea { border-color: #696969;
+           border-width: 2px; }
+
+
+button  { color:#000000;
+          background-color: #C0C0C0; 
+          font-size: 15px; 
+          }
+
+button:hover { background-color: #00008B;
+               color:#F0FFFF;
+               cursor: pointer;
+             }        
+
+#reset:active {  background-color: #FF0000;}  
+
+#subimt:active { background-color: #00FF00; }
+   
+ legend { font-size: 20px;
+          font-family: 'Roboto Serif', sans-serif;
+          }         
+
+#mother { border: solid;}      
+
+
+
+ 
